@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+body{
+  background-color: black;
+  color: white;
+}
+
+
+.bar {
+  animation: slideLoader 2s linear infinite;
+  -webkit-animation: slideLoader 2s linear infinite;
+}
+
+
+
+
+
+@keyframes slideLoader {
+  100% {
+    transform: translateX(3300px);
+    -webkit-transform: translateX(3300px);
+    -moz-transform: translateX(3300px);
+    -ms-transform: translateX(3300px);
+    -o-transform: translateX(3300px);
+}
+}
